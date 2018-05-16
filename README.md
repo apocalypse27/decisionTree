@@ -1,8 +1,16 @@
 # Decision-Tree-ID3
+## Overview
+* The code builds decision trees using two heuristics- Impurity Variance and Info-Gain.
+* The resulting decision trees and their accuracies can found in the txt files named: - 
+* The data sets can be found in the data_sets folders.
+* The code also provides to do option post-pruning.
 
-It uses two heuristics- Impurity Variance and Info-Gain.
+## Running 
+Run the following command to get the decision trees and accuracies..<br>
+python testDT.py L K "Path to train data" "Path to validation data" "Path to test data" yes/no
 
-python testDT.py 2 10 data_sets2\\training_set.csv data_sets2\\validation_set.csv data_sets2\\test_set.csv no
-The result tree printed will be the pruned tree.
+* Here L and K are parameters for Pruning.
+1. L is the number of iterations we would like to run the Pruning
+2. K is the maximum number of non-leaf nodes we would like to prune in each iteration.
 
-Yes or no indicates whether or not you want pruning in your tree.
+* Yes or no indicates whether or not you want to prune your tree.
