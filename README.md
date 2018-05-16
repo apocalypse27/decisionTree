@@ -7,7 +7,7 @@
 
 ## Running 
 Run the following command to get the decision trees and accuracies..<br>
-python testDT.py L K "Path to train data" "Path to validation data" "Path to test data" yes/no
+<i>python testDT.py L K "Path to train data" "Path to validation data" "Path to test data" yes/no </i>
 
 * Here L and K are parameters for Pruning.
 1. L is the number of iterations we would like to run the Pruning
