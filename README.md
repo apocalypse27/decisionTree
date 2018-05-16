@@ -1,7 +1,7 @@
 # Decision-Tree-ID3
 ## Overview
 * The code builds decision trees using two heuristics- Impurity Variance and Info-Gain.
-* The resulting decision trees and their accuracies can found in the txt files named: - 
+* The resulting decision trees and their accuracies can found in the txt files named: - Impur_Var_Gain_Tree, Info_Gain_Tree
 * The data sets can be found in the data_sets folders.
 * The code also provides to do option post-pruning.
 
